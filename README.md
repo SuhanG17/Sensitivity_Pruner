@@ -58,4 +58,4 @@ This repo is dedicated to include code for Sensitivity Pruner (SP), a kernel-lev
 | ---------- | --------|---------|
 | group_id  | There are four groups in ResNet-56, hence, choose among 0,1,2,3 | 0 |
 | compression_rate  | percent of channels to be retained, indicated using float number with range [0, 1] | 0.4 |
-| layersort         | if not specified, global sort is used, else layer sort 
+| layersort         | if not specified, global sort is used, else layer sort | False |
