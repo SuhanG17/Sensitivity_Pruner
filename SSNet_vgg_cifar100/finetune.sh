@@ -1,0 +1,1 @@
+python fine_tune_compressed_model.py --gpu_id 4,5,6 2>&1 | tee results/logs/log_fine_tune.txt
